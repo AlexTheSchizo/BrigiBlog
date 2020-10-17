@@ -1,0 +1,64 @@
+.background{
+    background-image: url("moon_BackGround.jpg");
+}
+.side_bar{
+    background-color: #151515;
+}
+.main_title{
+    color: #d3d3d3;
+}
+.title_wrap::after{
+    background-color: #d3d3d3;
+}
+.about_section{
+    background-color: #141414;
+}
+.contact_section{
+    background-color: #303030;
+}
+
+.menu_toggle{
+    background-color: #d3d3d3;
+}
+.menu_toggle::before{
+    background-color: #d3d3d3;
+}
+.menu_toggle::after{
+    background-color: #d3d3d3;
+}
+
+
+
+.switch-wrapper i{
+    color: #d3d3d3;
+}
+.slider {
+    background-color: rgb(136, 136, 136);
+}
+.slider:before {
+    background-color: white;
+}
+
+input:checked + .slider {
+    background-color: #222222;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #222222;
+}
+
+.box{
+    background-color: #252525;
+}
+.circle{
+    background-color:#141414;
+}
+.box::before{
+    color: #141414;
+}
+.box::after{
+    color:  #141414;
+}
+.box:hover{
+    background-color: #353535;
+}

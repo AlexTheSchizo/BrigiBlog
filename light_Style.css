@@ -1,0 +1,64 @@
+.background{
+    background-image: url("Smoke_BackGround.jpg");
+}
+.side_bar{
+    background-color: #d3d3d3;
+}
+.main_title{
+    color: #202020;
+}
+.title_wrap::after{
+    background-color: #202020;
+}
+.about_section{
+    background-color: #797979;
+}
+.contact_section{
+    background-color: #424242;
+}
+
+.menu_toggle{
+    background-color: #000000;
+}
+.menu_toggle::before{
+    background-color: #000000;
+}
+.menu_toggle::after{
+    background-color: #000000;
+}
+
+
+
+.switch-wrapper i{
+    color: #000000;
+}
+.slider {
+    background-color: rgb(136, 136, 136);
+}
+.slider:before {
+    background-color: white;
+}
+
+input:checked + .slider {
+    background-color: #222222;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #222222;
+}
+
+.box{
+    background-color: #252525;
+}
+.circle{
+    background-color:#141414;
+}
+.box::before{
+    color: #141414;
+}
+.box::after{
+    color:  #141414;
+}
+.box:hover{
+    background-color: #353535;
+}
